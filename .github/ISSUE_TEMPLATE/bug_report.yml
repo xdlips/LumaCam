@@ -1,0 +1,32 @@
+name: Bug report / Hata bildirimi
+description: Something doesn't work / Bir şey çalışmıyor
+labels: [bug]
+body:
+  - type: input
+    id: versions
+    attributes:
+      label: Versions / Sürümler
+      description: LumaCam Studio version (Settings → Updates) and iPhone app version (Settings → About)
+      placeholder: "Studio 0.1.0-alpha.1, iPhone 0.1.0-alpha.1"
+    validations: { required: true }
+  - type: input
+    id: system
+    attributes:
+      label: Windows version, iPhone model, iOS version
+      placeholder: "Windows 11 24H2, iPhone 13, iOS 27.0.1"
+    validations: { required: true }
+  - type: input
+    id: code
+    attributes:
+      label: Error code / Hata kodu
+      placeholder: "LC-NET-002"
+  - type: textarea
+    id: steps
+    attributes:
+      label: What happened? Steps to reproduce / Ne oldu? Nasıl tekrarlanır?
+    validations: { required: true }
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / Kayıtlar
+      description: Studio → Settings → Open Log Folder. Attach today's studio-*.log (it contains no video or keys).
