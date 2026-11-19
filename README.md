@@ -41,8 +41,9 @@ iPhone'unuzu Windows'ta profesyonel bir web kamerası olarak kullanın. Yerel, �
    *private* networks.
 4. Open **LumaCam Studio**. When Windows asks about network access, allow **Private networks**.
 
-A portable zip is also attached to each release (no installer). It can show the preview but **can't** register the
-virtual camera.
+A portable zip is also attached to each release (no installer). To use the virtual camera from it, choose
+**Set up virtual camera** in the title bar once and allow the Windows permission prompt. If you move or delete the
+folder later, Studio asks you to set it up again. Portable copies don't update themselves; download the new zip.
 
 ### Install on iPhone
 The iPhone app is distributed through **TestFlight** (link coming soon in the release notes) and later the App

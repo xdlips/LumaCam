@@ -32,7 +32,8 @@ Format: `LC-<AREA>-<NNN>`. Each code has a meaning, a user-facing explanation, a
 | LC-DEC-001 | Decoder | Failed to create H.264 decoder | Update GPU drivers; LumaCam falls back to software decoding. |
 | LC-DEC-002 | Decoder | Decoding error | A keyframe is requested automatically. |
 | LC-VCAM-001 | Virtual camera | OS does not support MF virtual cameras | Windows 11 (build 22000+) is required. |
-| LC-VCAM-002 | Virtual camera | Virtual camera registration failed | Reinstall LumaCam Studio (registers the media source). |
-| LC-VCAM-003 | Virtual camera | Media source not registered | Reinstall LumaCam Studio. |
+| LC-VCAM-002 | Virtual camera | Virtual camera setup failed | Settings › Virtual camera › Set up again, or use the installer. |
+| LC-VCAM-003 | Virtual camera | Media source not registered (e.g. portable copy) | Settings › Virtual camera › Set up (one Windows permission prompt). |
 | LC-VCAM-004 | Virtual camera | Frame shared memory unavailable | Restart LumaCam Studio. |
+| LC-VCAM-005 | Virtual camera | Setup cancelled at the Windows permission prompt | Choose Set up again and select Yes. |
 | LC-SYS-001 | System | Unsupported Windows version | Windows 10 1809+ for preview, Windows 11 for the virtual camera. |
